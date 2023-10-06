@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Website Saya</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Selamat Datang di Website Saya</h1>
+      <nav>
+        <ul class="navbar">
+          <li><a href="#" onclick="changeContent('home')">Beranda</a></li>
+          <li><a href="#" onclick="changeContent('about')">Tentang Kami</a></li>
+          <li><a href="#" onclick="changeContent('projects')">Proyek</a></li>
+          <li><a href="#" onclick="changeContent('contact')">Kontak</a></li>
+          <li><a href="#" onclick="changeContent('data-diri')">Data Diri</a></li>
+          <!-- Tambahkan ini -->
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <aside>
+        <img src="vector3.jpg" alt="Foto Saya" />
+        <h2>Data Diri</h2>
+        <p>Nama: John Doe</p>
+        <p>Umur: 30 tahun</p>
+        <p>Pekerjaan: Pengembang Web</p>
+        <p>Email: john.doe@email.com</p>
+      </aside>
+      <article id="home">
+        <h2>Selamat Datang di Website Saya</h2>
+        <p>Selamat datang di website pribadi saya. Ini adalah tempat di mana saya berbagi informasi tentang diri saya dan proyek-proyek yang telah saya kerjakan.</p>
+      </article>
+      <article id="about">
+        <h2>Tentang Saya</h2>
+        <p>Saya adalah seorang pengembang web yang bersemangat untuk membangun situs web yang menarik dan berfungsi dengan baik.</p>
+      </article>
+      <article id="projects">
+        <h2>Proyek Saya</h2>
+        <div class="project-card">
+          <img src="https://picsum.photos/250/150" alt="Proyek 1" />
+          <p>Proyek 1: Ini adalah proyek pertama saya. Proyek ini berfokus pada...</p>
+        </div>
+        <div class="project-card">
+          <img src="https://picsum.photos/250/150" alt="Proyek 2" />
+          <p>Proyek 2: Proyek ini melibatkan...</p>
+        </div>
+        <div class="project-card">
+          <img src="https://picsum.photos/250/150" alt="Proyek 3" />
+          <p>Proyek 3: Proyek ini adalah tentang...</p>
+        </div>
+      </article>
+      <article id="contact">
+        <h2>Kontak Saya</h2>
+        <p>Anda dapat menghubungi saya melalui email di alamat <a href="mailto:john.doe@email.com">john.doe@email.com</a>.</p>
+      </article>
+    </main>
+    <footer>
+      <p>Hak Cipta &copy; 2023 - Website Saya</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
